@@ -22,7 +22,7 @@ function deepestChild(){
   //this one doesn't need to be generic
   let node = document.querySelector('#grand-node');
   debugger
-  while (node.childrenElementCount > 0) {
+  while (node.childElementCount > 0) {
     debugger
     node = node.children[0];
   }
