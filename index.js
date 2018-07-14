@@ -21,9 +21,7 @@ function deepestChild(){
   //pulls out most deeply nested child from div#grand-node
   //this one doesn't need to be generic
   let node = document.querySelector('#grand-node');
-  debugger
   while (node.childElementCount > 0) {
-    debugger
     node = node.children[0];
   }
   return node;
