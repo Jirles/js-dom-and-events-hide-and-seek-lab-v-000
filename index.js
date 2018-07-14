@@ -23,5 +23,6 @@ function deepestChild(){
   let node = document.querySelector('#grand-node');
   while(node.childrenElementCount > 0){
     node = node.children[0];
-  }
+  };
+  return node;
 };
