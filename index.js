@@ -24,5 +24,4 @@ function deepestChild(){
   while(node.childrenElementCount > 0){
     node = node.children[0];
   }
-  return node;
 };
